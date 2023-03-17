@@ -45,7 +45,7 @@ HO: There is no diffrence in churn dependent on if the customer has online secur
 HA: There is a significant diffrence in churn dependening on if the customer has online secur citizen and has fiber optic.
 
 Problem 2:
-- Are customers with fiber optic and no online security more likly to churn?
+- Is churn dependent on internet service?
 
 HO: There is no diffrence in churn between customers with diffrent internet services.
 
