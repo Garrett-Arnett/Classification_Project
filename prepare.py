@@ -56,8 +56,7 @@ def rename_columns(df):
                                 'TechSupport':'tech_support'})
 
 def remove_columns(df):
-    return df.drop(columns=['internet_service', 'gender', 'payment_method', 'contract',"partner", "dependents", "phone_service", "multiple_lines",
-                            "online_security",'online_backup', 'device_protection','Churn','tech_support','streaming_movies','streaming_tv','paperless_billing','monthly_charges', 'total_charges'])
+    return df.drop(columns=['internet_service', 'gender', 'payment_method', 'contract',"partner", "dependents", "phone_service", "multiple_lines", "online_security",'online_backup', 'device_protection','Churn','tech_support','streaming_movies','streaming_tv','paperless_billing'])
 
 def train_validate_test_split(df, target, seed=123):
     '''
