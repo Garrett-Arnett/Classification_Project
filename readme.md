@@ -104,7 +104,7 @@ HA: There is a significant diffrence in churn dependening on if the customer has
 
 Knn = K-nearest neighbors test
 
-LinReg = Linear regression test
+LogReg = Logistic regression test
 
 Rforerst = Random forest test
 
