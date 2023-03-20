@@ -33,6 +33,8 @@ def prep_telco_data(df):
                                     'tech_support','streaming_movies','streaming_tv','paperless_billing']], drop_first=True)
     df = pd.concat([df, dummy_df4], axis=1)
     df = remove_columns(df)
+    
+    df['total_charges'].fillna(2283.3004408418697, inplace=True)
     return (df)
 
 def rename_columns(df):
