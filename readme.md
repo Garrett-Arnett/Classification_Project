@@ -38,18 +38,18 @@ Plan
 
 Problem 1:
 
+- Are customers more likely to churn with fiber optic internet service?
+
+HO: There is no diffrence in churn between customers with fiber optice internet services and those whithout.
+
+HA: There is a significant diffrence in churn between the customers that have fiber optic.
+
+Problem 2:
 - Are customers with fiber optic and no online security more likly to churn?
 
 HO: There is no diffrence in churn dependent on if the customer has online security and fiber optic.
 
 HA: There is a significant diffrence in churn dependening on if the customer has online secur citizen and has fiber optic.
-
-Problem 2:
-- Is churn dependent on internet service?
-
-HO: There is no diffrence in churn between customers with diffrent internet services.
-
-HA: There is a significant diffrence in churn beteen the internet services.
 
 # Acquire
 
@@ -104,7 +104,7 @@ HA: There is a significant diffrence in churn beteen the internet services.
 
 Knn = K-nearest neighbors test
 
-LogReg = Linear regression test
+LogReg = Logistic regression test
 
 Rforerst = Random forest test
 
